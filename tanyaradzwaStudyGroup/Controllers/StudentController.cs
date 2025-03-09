@@ -14,10 +14,10 @@ namespace tanyaradzwaStudyGroup.Controllers
             List<Models.StudentList> Students = new List<Models.StudentList>
 {
     new Models.StudentList { StudentNumber = "U23557509", Name = "Tanyaradzwa", Surname = "Masara", Email_Address = "U23557509@tuks.co.za" },
-    new Models.StudentList { StudentNumber = "U24557510", Name = "Kudzai", Surname = "Chiwenga", Email_Address = "U24557510@tuks.co.za" },
-    new Models.StudentList { StudentNumber = "U21557511", Name = "Sipho", Surname = "Ndlovu", Email_Address = "U21557511@tuks.co.za" },
-    new Models.StudentList { StudentNumber = "U01557512", Name = "Aisha", Surname = "Patel", Email_Address = "U01557512@tuks.co.za" },
-    new Models.StudentList { StudentNumber = "U22557513", Name = "Johan", Surname = "Van Rensburg", Email_Address = "U22557513@tuks.co.za" }
+    new Models.StudentList { StudentNumber = "U04949872", Name = "Mia", Surname = "Hand", Email_Address = "U04949872@tuks.co.za" },
+    new Models.StudentList { StudentNumber = "U24892859", Name = "Karen", Surname = "Kumbula", Email_Address = "U24892859@tuks.co.za" },
+    new Models.StudentList { StudentNumber = "U24666492", Name = "Palesa", Surname = "Mokgolobotho", Email_Address = "U24666492@tuks.co.za" },
+    new Models.StudentList { StudentNumber = "U23546094", Name = "Mutarisi", Surname = "Chibaya", Email_Address = "U23546094@tuks.co.za" }
 };
 
             return View(Students);

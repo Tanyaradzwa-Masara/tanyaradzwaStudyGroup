@@ -1,0 +1,395 @@
+﻿/* General body styles */
+body {
+    background-color: lightgreen;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Section */
+.header-section {
+    background-color: black;
+}
+
+.header {
+    list-style-type: none;
+    padding: 16px;
+    margin: 10px;
+}
+
+    .header li {
+        display: inline;
+        margin-right: 20px;
+        color: white;
+    }
+
+        .header li a {
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+        }
+
+            .header li a:hover {
+                background-color: green;
+            }
+
+        .header li:not(:last-child) {
+            border-right: 1px solid white;
+        }
+
+ul.header li {
+    padding: 11px;
+    border-right: 11px solid white;
+}
+
+    ul.header li:last-child {
+        border-right: none;
+    }
+
+/* Dropdown Styles */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-toggle {
+    background-color: black;
+    color: white;
+    padding: 18px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+    .dropdown-toggle:hover {
+        background-color: #66bb6a;
+    }
+
+.dropdown-menu li a {
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+}
+
+    .dropdown-menu li a:hover {
+        background-color: #ddd;
+    }
+
+/* Show the dropdown menu when hovering */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Bio and Content Section */
+.bio-and-Background h1 {
+    text-align: center; /* Centers the h1 text */
+}
+
+.bio-and-content {
+    border: double 2px orange;
+    padding: 20px;
+    width: 85%;
+    margin-bottom: -10px;
+    background-color: #f9f9f9;
+    flex: 1;
+}
+.bio-and-content2 {
+    border: double 2px orange;
+    padding: 10px;
+    width: 60%;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    transform:translateX(50px);
+}
+
+.bio-and-content p {
+    margin: 10px 0;
+}
+
+.bio-and-content2 p {
+    margin: 40px 0;
+    padding: 0px;
+    margin-top: 20px;
+}
+  
+/* Table Button Styles */
+#table td a.btn-primary {
+    padding: 5px 10px;
+    font-size: 10px;
+    margin: 0;
+    display: inline-block;
+    text-align: center;
+}
+#table th, #table td {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+#table th{
+    background-color:grey;
+}
+#table th, #table td {
+    border: 2px solid black; /* Creates visible lines */
+    padding: 8px;
+    text-align: left;
+}
+
+/* Container for Bio Image and Text */
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+}
+
+    .container img {
+        height: 200px;
+        height: 200px;
+        margin-right: 20px;
+        transition: transform 0.5s ease;
+        float:right;
+    }
+
+        .container img:hover {
+            transform: scaleX(-1);
+        }
+
+    .container p {
+        font-size: 16px;
+        color: #333;
+    }
+
+/* Hobbies Section */
+.hobbies-body {
+    display: flex;
+    align-items: center;
+    height: 120px;
+    border: double 2px orange;
+    width: 45%;
+    margin-top:-20px;
+    background-color: white;
+    flex: 1;
+}
+.hobbies-body2 {
+    display: flex;
+    align-items: center;
+    height: 150px;
+    gap:20px;
+    border: double 2px orange;
+    width: 45%;
+    margin-top: -20px;
+    background-color: white;
+    flex: 1;
+}
+/*Images for Karen*/
+.image2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    float:right;
+    transform:translateX(-200px);
+}
+
+    .image2 img {
+        height: 200px;
+        height: 200px;
+        transition: transform 0.5s ease !important; 
+        margin-top:-100px;
+       
+       
+    }
+
+        .image2 img:hover {
+            transform: scaleX(-1) !important;
+        }
+.container2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    transform: translateX(-40px);
+}
+
+    .container2 img {
+        transition: 0.5s ease;
+  
+    }
+.container2 img {
+    height: 150px;
+    margin-bottom: 10px;
+    transition: transform 0.5s ease;
+    float: right;
+    position: center;
+    width:20%;
+    margin-top:-20px;
+   
+}
+
+    .container2 img:hover {
+        transform: scaleX(-1);
+    }
+.image3 {
+    text-align: right;
+    float: right;
+}
+.image3 img {
+    width: 60%;
+    height: auto;
+    transition: 0.5s ease;
+    transform: scaleX(-1);
+    margin-top: -20px;
+    transform:translateX(-150px);
+}
+.image3 img:hover {
+    transform: scaleX(-1) !important;
+}
+.image4 {
+    text-align: right;
+    float: right;
+}
+.image4 img {
+    width: 150px;
+    height: 200px;
+    float: right;
+    transition: 0.5s ease;
+    margin-bottom:5px;
+
+  
+}
+.image4 img:hover {
+    transform: scaleX(-1) !important;
+}
+
+.bio-and-content3 {
+    border: double 2px orange;
+    width:70%;
+  
+    background-color: #f9f9f9;
+    margin-top:-20px;
+}
+.image5 {
+    width: 270px;
+    height: 200px;
+    margin-left: 1000px !important;
+    margin-top:-150px;
+}
+image5 img {
+   width: 270px !important;
+    height: 200px !important;
+    transition: 0.5s ease;
+    transform: scale(1.0);
+
+}
+
+.image5 img:hover {
+    transform: scaleX(-1) !important;
+}
+    .image4 img {
+    width: 240px;
+    height: 100px;
+    float: right;
+    transition: 0.5s ease;
+    margin-right:-450px;
+    margin-top:100px;
+    transform:scale(1.8);
+
+  
+}
+    .image4 img:hover {
+        transform: scaleX(-1) !important;
+    }
+.bio-and-content5 {
+    border: double 2px orange;
+    padding: 5px;
+    width: 80%;
+    margin-top: 10px;
+    background-color: #f9f9f9;
+}
+.hobbies-body5 {
+    margin-top: 90px;
+    border: double 2px orange;
+    padding: 5px;
+    width: 40%;
+    background-color: #f9f9f9;
+}
+.Hobbies title2{
+    margin-top:-90px;
+}
+.image6 {
+    width: 270px;
+    height: 200px;
+}
+    .image6 img {
+        width: 270px;
+        height: 200px;
+        transition: 0.5s ease;
+        margin-left: 750px;
+        margin-top:-20px;
+    }
+image6 img:hover{
+    transform:scaleX(-1)!important;
+}
+.image7 {
+    position: absolute;
+    margin-top: 60px;
+    right: 590px !important;
+    width: 100px !important;
+    margin-right: 250px;
+    height:90px;
+}
+
+image7 img {
+   width:100px !important;
+    height: 100px !important;
+    transition: 0.5s ease;
+    transform: scale(1.0);
+    
+}
+
+.image7 img:hover {
+    transform: scaleX(-1) !important;
+}
+
+
+.image8 {
+    position: absolute;
+    margin-top: 15px;
+    right: 590px !important;
+    width: 70px !important;
+    margin-left: -350px;
+    height: 60px;
+}
+
+image8 img {
+    width: 70px !important;
+    height: 60px !important;
+    transition: 0.5s ease;
+    transform: scale(1.0);
+
+}
+
+.image8 img:hover {
+    transform: scaleX(-1) !important;
+}
+.footer1 {
+    flex:1 auto;
+}
+.bio-and-content, .hobbies-body {
+    width: 60%; /* Adjust width to fit the page */
+    margin-left: 0; /* Center align and add space above & below */
+    padding: 30px;
+    background-color: #f8f8f8; /* Light background for better readability */
+    border-radius: 8px; /* Rounded corners for a smooth look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+    line-height: 1.6; /* Improve text spacing */
+}
+.hobbies-body {
+    margin-top: -20px  /* Adds some spacing between the sections */
+}
+
+p {
+    font-size: 16px; /* Adjust text size */
+    color: #333; /* Dark grey for better readability */
+}
+.module-heading{
+    margin-top:-120px;
+}
